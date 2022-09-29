@@ -230,5 +230,20 @@ a:visited {
     
  }
 
+ .CV_btn{
+    /* background: #a9b1b8; */
+    border-radius: 8px;
+    font-size: 15px;
+    padding: 5px 10px 5px 10px;
+    margin-bottom: 20px;
+    color: black;
+ }
+
+  .CV_btn a{
+    color: black;
+    text-decoration: none;
+    background-color: transparent;
+ }
+
  
 
