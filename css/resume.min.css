@@ -169,8 +169,9 @@ a:visited {
   /* Float four columns side by side */
   .column {
     float: left;
-    width: 25%;
+    width: 33.3%;
     padding: 0 10px;
+    
   }
   
   /* Remove extra left and right margins, due to padding */
@@ -193,15 +194,27 @@ a:visited {
   }
   
   /* Style the counter cards */
-  .card {
+  #card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     padding: 16px;
     text-align: center;
-    background-color: #f1f1f1;
+    background: #f1f1f1;
     margin-bottom: 30px;
     overflow: auto;
-    min-height: 220px;
+    min-height: 250px;
+    
+    border-width: 3px;
+    border-style: solid;
+    border-image: 
+      linear-gradient(
+        
+        #1171BB, 
+        #343A40
+      ) 1 ;
+    border-radius: 10px;
   }
+
+  
 
   .hoverdiv{
     position: relative;
@@ -212,6 +225,10 @@ a:visited {
     color: #fff;
   }
 
- a .card{
+ a #card{
     color: #868e96f5;
+    
  }
+
+ 
+
