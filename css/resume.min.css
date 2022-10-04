@@ -122,7 +122,8 @@ section.resume-section {
 }
 
 section.resume-section .resume-item .resume-date {
-    min-width: none
+    min-width: none;
+    
 }
 
 @media (min-width:768px) {
@@ -143,15 +144,15 @@ section.resume-section .resume-item .resume-date {
 }
 
 .bg-primary {
-    background-color: #1171BB !important
+    background-image: linear-gradient(360deg,#1171BB,#04a5f0 ) !important
 }
 
 .text-primary {
-    color: #1171BB !important
+    color: linear-gradient(360deg,#1171BB,#04a5f0 )!important
 }
 
 a {
-    color: #1171BB
+    color: linear-gradient(360deg,#1171BB,#04a5f0 )
 }
 
 a:active,
